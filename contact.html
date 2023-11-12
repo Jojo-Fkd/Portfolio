@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Kidus Moges</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <!-- NAVIGATION CONTENT -->
+    <div class="side_bar_blur"></div>
+    <header>
+      <div class="logo">
+        <a href="index.html" style="color: black">KIDUS MOGES</a>
+      </div>
+      <nav class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a target="_blank" href="KIDUS.pdf">Resume</a></li>
+      </nav>
+      <div class="side_bar_container">
+        <div class="side_bar_icon">
+          <div class="side_bar_icon_inner"></div>
+        </div>
+        <ul>
+          <li>
+            <a href="index.html"> Home </a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="about.html">About Me</a>
+          </li>
+          <li><a href="KIDUS.pdf">My Resume</a></li>
+        </ul>
+      </div>
+      <section class="ask">
+        <div class="ask_inner">
+          <div class="dummy_input">Questions?</div>
+          <button type="button">Ask</button>
+        </div>
+      </section>
+    </header>
+
+    <!-- CLIENT WANTS TO ASK A QUESTION -->
+
+    <section class="popup_container">
+      <article class="field_popup">
+        <section class="popup_header">
+          <div>
+            <h2>Question</h2>
+            <span>Will be sent directly to Kidus Moges's email inbox</span>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 24 24"
+            style="fill: black"
+          >
+            <path
+              d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"
+            ></path>
+          </svg>
+        </section>
+
+        <form id="form">
+          <label for="Email">
+            <input
+              type="email"
+              placeholder="Your Email Address"
+              id="Email"
+              name="Email"
+              autocomplete="off"
+              required
+            />
+          </label>
+          <label for="Question">
+            <textarea
+              name="Question"
+              id="Question"
+              cols="30"
+              rows="10"
+              placeholder="Your Question"
+              required
+            ></textarea>
+          </label>
+          <div class="btn_container">
+            <button type="submit" id="button">Send</button>
+          </div>
+        </form>
+        <section class="loading">
+          <div></div>
+        </section>
+      </article>
+      <article class="success">
+        <section class="popup_header">
+          <div>
+            <h2>Question delivered</h2>
+            <span>Expect an answer in your email inbox soon.</span>
+          </div>
+        </section>
+        <section class="data_review">
+          <div class="email"></div>
+          <div class="question"></div>
+        </section>
+        <div class="btn_container">
+          <button type="button" id="okBtn">Ok</button>
+        </div>
+      </article>
+      <article class="failed">
+        <section class="popup_header">
+          <div>
+            <h2>Failed to deliver</h2>
+            <span>Check your internet connection and try again</span>
+          </div>
+        </section>
+        <div class="btn_container">
+          <button type="button" id="okBtn">Ok</button>
+        </div>
+      </article>
+    </section>
+    <main class="contact">
+      <section class="contact_header">
+        <h1>Contact</h1>
+        <h6>Use these links to contact me</h6>
+      </section>
+      <ul>
+        <li>
+          <a href="https://dribbble.com/mogokimo?onboarding=true"
+            ><ion-icon name="logo-dribbble" size="large"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.figma.com/@kimomogo+"
+            ><ion-icon name="logo-figma" size="large"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a href="Google.html">
+            <ion-icon name="logo-google" size="large"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a href="https://github.com/Kimomogo"
+            ><ion-icon name="logo-github" size="large"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCbp_NPi7LbC0IIlMCmsfjtw"
+            ><ion-icon name="logo-youtube" size="large"></ion-icon
+          ></a>
+        </li>
+      </ul>
+      <section class="buy_me_a_coffee">
+        <a href="https://www.buymeacoffee.com/kimomogo5"
+          ><img
+            src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=kimomogo5&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"
+        /></a>
+      </section>
+    </main>
+
+    <!-- FOOTER CONTENT -->
+
+    <footer>
+      <section id="main_footer_content">
+        <ul class="footer_logo">
+          <li>
+            <a href="index.html">KIDUS MOGES</a>
+          </li>
+          <li>Develop what matters.</li>
+        </ul>
+        <article class="services">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="">Web, App, Logo Design</a></li>
+            <li><a href="">Frontend Engineering</a></li>
+            <li><a href="">Backend Development</a></li>
+            <li><a href="">Full Web Development</a></li>
+          </ul>
+        </article>
+        <article>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Contact Me</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a target="_blank" href="KIDUS.pdf">My Resume</a></li>
+          </ul>
+        </article>
+      </section>
+      <hr />
+      <section id="sub_footer_content">
+        <ul class="contact_media">
+          <li>
+            <a href="https://dribbble.com/mogokimo?onboarding=true"
+              ><ion-icon name="logo-dribbble" size="large"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.figma.com/@kimomogo+"
+              ><ion-icon name="logo-figma" size="large"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="Google.html">
+              <ion-icon name="logo-google" size="large"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/Kimomogo"
+              ><ion-icon name="logo-github" size="large"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCbp_NPi7LbC0IIlMCmsfjtw"
+              ><ion-icon name="logo-youtube" size="large"></ion-icon
+            ></a>
+          </li>
+        </ul>
+        <p>2023, KIDUS MOGES</p>
+      </section>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+  <!--Script -->
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+  ></script>
+
+  <script type="text/javascript">
+    emailjs.init("i931M4lsLUdV6XRsR");
+  </script>
+</html>

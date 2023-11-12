@@ -1,0 +1,12 @@
+/* ABOUT CONTENT STYLES */
+
+main figure figcaption h1 {
+  font-weight: 300;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+main figure figcaption p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
